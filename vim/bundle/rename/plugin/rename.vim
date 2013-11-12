@@ -1,5 +1,5 @@
 " Vim plugin to rename files.
-" Author: Pete Yandell <pete@notahat.com>
+" Author: Pete Yandell <pete@elseano.com>
 
 let s:save_cpo = &cpo
 set cpo&vim

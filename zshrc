@@ -94,7 +94,7 @@ export CLICOLOR=1                                         # Make ls colour its o
 export LESS=-R                                            # Make less support ANSI colour sequences.
 export ACK_OPTIONS="--known-types --nosql --type-set cucumber=.feature --type-set sass=.sass" # Make ack ignore sql dumps, and search cucumber features.
 
-export RAILS_CACHE_CLASSES=true
+export RAILS_CACHE_CLASSES=false
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

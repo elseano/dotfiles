@@ -1,6 +1,6 @@
 " Vim plugin for simple ruby refactorings
 " Last Change: 2011 Apr 18
-" Maintainer:	 Pete Yandell <pete@notahat.com>
+" Maintainer:	 Pete Yandell <pete@elseano.com>
 " License:     See LICENSE
 
 if exists("g:loaded_reruby") || &compatible || !has("ruby")

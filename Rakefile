@@ -72,8 +72,8 @@ end
 def configure_git
   system("/bin/sh", "-c", <<-EOF)
     git config --global user.name "Pete Yandell"
-    git config --global user.email "pete@notahat.com"
-    git config --global github.user notahat
+    git config --global user.email "pete@elseano.com"
+    git config --global github.user elseano
     git config --global difftool.prompt false
     git config --global color.ui true
 
@@ -85,13 +85,13 @@ def configure_git
     git config --global merge.defaultToUpstream true
 
     # Helpful aliases.
-    git config --global alias.build '!git push -f origin HEAD:build/notahat/$(openssl rand -hex 3)'
-    git config --global alias.build-without-master '!git push -f origin HEAD:build/notahat/$(openssl rand -hex 3)-without-master'
-    git config --global alias.build-specs '!git push -f origin HEAD:build-specs/notahat/$(openssl rand -hex 3)'
-    git config --global alias.build-specs-without-master '!git push -f origin HEAD:build-specs/notahat/$(openssl rand -hex 3)-without-master'
-    git config --global alias.build-features '!git push -f origin HEAD:build-features/notahat/$(openssl rand -hex 3)'
-    git config --global alias.build-features-without-master '!git push -f origin HEAD:build-features/notahat/$(openssl rand -hex 3)-without-master'
-    git config --global alias.build-js '!git push -f origin HEAD:build-js/notahat/$(openssl rand -hex 3)'
-    git config --global alias.build-js-without-master '!git push -f origin HEAD:build-js/notahat/$(openssl rand -hex 3)-without-master'
+    git config --global alias.build '!git push -f origin HEAD:build/elseano/$(openssl rand -hex 3)'
+    git config --global alias.build-without-master '!git push -f origin HEAD:build/elseano/$(openssl rand -hex 3)-without-master'
+    git config --global alias.build-specs '!git push -f origin HEAD:build-specs/elseano/$(openssl rand -hex 3)'
+    git config --global alias.build-specs-without-master '!git push -f origin HEAD:build-specs/elseano/$(openssl rand -hex 3)-without-master'
+    git config --global alias.build-features '!git push -f origin HEAD:build-features/elseano/$(openssl rand -hex 3)'
+    git config --global alias.build-features-without-master '!git push -f origin HEAD:build-features/elseano/$(openssl rand -hex 3)-without-master'
+    git config --global alias.build-js '!git push -f origin HEAD:build-js/elseano/$(openssl rand -hex 3)'
+    git config --global alias.build-js-without-master '!git push -f origin HEAD:build-js/elseano/$(openssl rand -hex 3)-without-master'
   EOF
 end
