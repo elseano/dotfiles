@@ -78,6 +78,7 @@ alias gf="git fetch"
 alias gco="git checkout"
 alias gm="git merge --no-ff"
 alias gff="git merge --ff-only"
+alias ga="git add -i"
 alias cdr='cd $(git rev-parse --show-cdup)'
 
 # Quick way to rebuild the Launch Services database and get rid

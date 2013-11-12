@@ -10,6 +10,8 @@ end
 
 
 def install_config_files
+  replace_all = false
+
   Dir['*'].each do |file|
     next if %w[Rakefile README.rdoc LICENSE].include? file
 
